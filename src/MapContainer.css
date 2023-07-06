@@ -1,0 +1,53 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .add-customer {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display:block;
+    
+   
+  }
+  .form-group input{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+  }
+  
+  
+  .add-customer input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:orangered;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 3px rgb(9, 9, 9);
+  }
+  .btn:hover{
+    padding:10px 30px;
+  }
+  
+  .map-container {
+    flex: 2;
+  }
